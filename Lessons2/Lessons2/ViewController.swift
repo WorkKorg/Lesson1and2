@@ -17,3 +17,10 @@ class ViewController: UIViewController {
 
 }
 
+func test ( age: Int = 17, surname: String, lastName: String) {
+    if age < 18 {
+       return print ("\(name) \(surname) Person is not adult")
+    } else {
+        print ("OK")
+    }
+}
